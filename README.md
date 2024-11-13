@@ -1,2 +1,0 @@
-# InspiQuotes
-InspiQuotes
