@@ -2,10 +2,10 @@
 
 <div dir="rtl">
 
+<img width="1680" alt="image" src="https://github.com/user-attachments/assets/3f62eaed-3f75-4e9d-b891-242877d8ebd8">
+
 מאגר ציטוטים והשראה בעברית - אתר אינטראקטיבי להצגת משפטי השראה, חוכמה ומוטיבציה מתוך מקורות יהודיים ועולמיים.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/username/inspiquotes)
-![License](https://img.shields.io/github/license/username/inspiquotes)
 
 > מבוסס על [InspiQuotes](https://github.com/AnLoMinus/InspiQuotes) מאת [לאון יעקובוב](https://github.com/AnLoMinus)
 
