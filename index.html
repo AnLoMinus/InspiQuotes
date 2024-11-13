@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>משפטים לחיים</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="sidebar">
+        <div class="nav-header">
+            <h2>קטגוריות</h2>
+        </div>
+        <ul id="categoryList" class="category-list"></ul>
+    </nav>
+
+    <div class="main-content">
+        <div class="container">
+            <h1>משפטים לחיים ❤️</h1>
+
+            <div class="stats-container">
+                <div class="stat-box">
+                    <div class="stat-number">ס</div>
+                    <div class="stat-label">כותבים</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">ס</div>
+                    <div class="stat-label">קטגוריות</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">ס</div>
+                    <div class="stat-label">משפטים</div>
+                </div>
+            </div>
+
+            <div class="top-actions">
+                <button id="toggleList" class="action-button">
+                    <i class="fas fa-list"></i> כל המשפטים
+                </button>
+                <button id="newQuote" class="action-button primary">
+                    <i class="fas fa-random"></i> משפט חדש
+                </button>
+                <button id="copyQuote" class="action-button">
+                    <i class="fas fa-copy"></i> העתק
+                </button>
+                <button id="shareQuote" class="action-button">
+                    <i class="fas fa-share-alt"></i> שתף
+                </button>
+            </div>
+
+            <div class="quote-container">
+                <div class="quote-wrapper">
+                    <p id="quote" class="quote-text">ברוכים הבאים למשפטים לחיים! לחצו על 'משפט חדש' כדי להתחיל</p>
+                    <div class="quote-footer">
+                        <div class="author" id="author">- צוות משפטים לחיים</div>
+                        <div id="quoteCategory" class="quote-category"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="quotesList" class="quotes-list-container hidden">
+            <h2>כל המשפטים</h2>
+            <div class="search-container">
+                <input type="text" id="searchQuotes" placeholder="חיפוש משפטים..." class="search-input">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+            <div class="quotes-grid" id="quotesGrid"></div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            קוד מקור <a href="https://github.com/AnLoMinus/InspiQuotes" target="_blank">InspiQuotes</a>
+            מאת <a href="https://github.com/AnLoMinus" target="_blank">לאון יעקובוב</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
