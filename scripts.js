@@ -38,6 +38,7 @@ const categoryEmojis = {
   טבע: "🌿",
   יהדות: "✡️",
   all: "🌟",
+  "חוכמת חיים": "🌱",
 };
 
 async function loadQuotes() {
